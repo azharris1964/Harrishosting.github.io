@@ -1,0 +1,46 @@
+h1{
+  font-family: sans-serif;
+    color: midnightblue;
+    font-size: 55px
+}
+
+h2{
+  font-family: sans-serif;
+    color: midnightblue;
+    font-size: 30px
+    padding-right: 300px
+}
+
+h3{
+    padding-left: 800px
+    font-family: inherit;
+    color: red;    
+
+    
+}
+
+p{
+width: 25%;
+color: black;
+font-size: 40px
+    
+    
+    
+}
+
+.image-container {    
+    
+    display: block;               
+    margin: auto;               
+    height: 10%;  
+    
+}
+
+body{
+    
+    background-color: gainsboro;
+    
+    
+    
+}
+

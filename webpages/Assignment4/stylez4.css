@@ -1,7 +1,7 @@
 nav{
-   z-index:1;
-    position: sticky;
-    top: 0px;
+    z-index: 1;
+    position: absolute;
+    top: 170px;
     font-family: inherit;
     padding-top: 1px;
 }
@@ -33,6 +33,7 @@ li a:hover {
 }
 
 h1{
+    position: inherit;
     font-family: sans-serif;
     color: LimeGreen;
     font-size: 30px;
@@ -55,44 +56,33 @@ c{
 }
 
 h3{
-    padding-left: 00px
+    width: 100%;
     font-family: inherit;
-    color: LimeGreen;    
+    color: LimeGreen;  
+    position: relative;
 }
 
 p{
-    width: 14%;
+    width: 15%;
     font-size: 20px;
     color: LimeGreen;
-    bottom: -150px;
-    padding-left: 655px;
+    padding-left: 670px;
     font-family: inherit;
     text-align: center;
-    padding-top: 10px;
-    position: absolute;
 }
 
 p2{
-    width: 1%;
     font-size: 20px;
     color: LimeGreen;
     font-family: inherit; 
-    bottom:-150px;
 }
 
 .image-container { 
-    top: -640px;
-    position: relative;              
+    top: 50px;
+    position: absolute;              
     margin-top: 100px;               
     height: 60%;  
-    left: -50px;
-}
-
-.sphere-container{
-    position: relative;
-    top: -575px;
-    left: 275px;
-    
+    left: 650px;
 }
 
 body{
@@ -102,13 +92,16 @@ body{
 
 .myContainer{
     background-color: black;
+    position: static;
+    top: auto;
+    
 }
 
 .column{
     z-index: 1;
     position: relative;
-    top: -562px;
-    padding-left: 940px;
+    top: -294px;
+    padding-left: 965px;
     margin-right: inherit;
     max-width: 13%;
     text-align: center;
@@ -117,7 +110,6 @@ body{
 body {
     text-align: center;
 }
-
 .wrapper {
     position: inherit;
     align-self: stretch;
@@ -142,4 +134,3 @@ body {
     margin-top: -3px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
 }
-
