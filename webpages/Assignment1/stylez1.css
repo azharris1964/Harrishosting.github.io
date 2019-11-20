@@ -52,13 +52,13 @@ c{
     font-size: 20px;
     color: limegreen;
     padding-left: 2000px;
-    margin: auto;  
+    margin: auto;
 }
 
 h3{
     padding-left: 00px
     font-family: inherit;
-    color: LimeGreen;    
+    color: LimeGreen;
 }
 
 p{
@@ -73,27 +73,27 @@ p{
 p2{
     font-size: 20px;
     color: LimeGreen;
-    font-family: inherit; 
+    font-family: inherit;
 }
 
-.image-container { 
+.image-container {
     top: 50px;
-    position: absolute;              
-    margin-top: 100px;               
-    height: 60%;  
+    position: absolute;
+    margin-top: 100px;
+    height: 60%;
     left: 650px;
 }
 
 body{
     background-color: black;
-    
+
 }
 
 .myContainer{
     background-color: black;
     position: static;
     top: auto;
-    
+
 }
 
 .column{
@@ -105,7 +105,7 @@ body{
     max-width: 13%;
     text-align: center;
 }
-    
+
 body {
     text-align: center;
 }
@@ -132,4 +132,10 @@ body {
 .wrapper i:hover {
     margin-top: -3px;
     text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
+
+
+canvas {
+      border: 1px solid;
+      border-color: LimeGreen;
 }

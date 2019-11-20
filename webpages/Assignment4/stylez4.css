@@ -1,3 +1,9 @@
+
+canvas {
+      border: 1px solid;
+      border-color: LimeGreen;
+}
+
 nav{
     z-index: 1;
     position: absolute;
@@ -52,13 +58,13 @@ c{
     font-size: 20px;
     color: limegreen;
     padding-left: 2000px;
-    margin: auto;  
+    margin: auto;
 }
 
 h3{
     width: 100%;
     font-family: inherit;
-    color: LimeGreen;  
+    color: LimeGreen;
     position: relative;
 }
 
@@ -74,27 +80,27 @@ p{
 p2{
     font-size: 20px;
     color: LimeGreen;
-    font-family: inherit; 
+    font-family: inherit;
 }
 
-.image-container { 
+.image-container {
     top: 50px;
-    position: absolute;              
-    margin-top: 100px;               
-    height: 60%;  
+    position: absolute;
+    margin-top: 100px;
+    height: 60%;
     left: 650px;
 }
 
 body{
     background-color: black;
-    
+
 }
 
 .myContainer{
     background-color: black;
     position: static;
     top: auto;
-    
+
 }
 
 .column{
@@ -106,7 +112,7 @@ body{
     max-width: 13%;
     text-align: center;
 }
-    
+
 body {
     text-align: center;
 }

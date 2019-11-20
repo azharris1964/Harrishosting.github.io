@@ -1,145 +1,130 @@
-nav{
-   z-index:1;
-    position: sticky;
-    top: 0px;
-    font-family: inherit;
-    padding-top: 1px;
+nav {
+      z-index: 999;
+      position: absolute;
+      top: 0px;
+      font-family: inherit;
+      padding-top: 1px;
 }
 
-ul{
-    list-style-type: none;
-    width: 140px;
+ul {
+      list-style-type: none;
+      width: 140px;
 }
 
-li a{
-    display: block;
-    text-decoration: none;
-    padding: 8px 16px;
-     color: LimeGreen;
-    font-size: 20px;
+li a {
+      display: block;
+      text-decoration: none;
+      padding: 8px 16px;
+      color: LimeGreen;
+      font-size: 20px;
 }
 
 li {
-    text-align: center;
-    border-bottom: 1px solid LimeGreen;
-    border-top: 1px solid LimeGreen;
-    border-left: 1px solid LimeGreen;
-    border-right: 1px solid LimeGreen;
+      text-align: center;
+      border-bottom: 1px solid LimeGreen;
+      border-top: 1px solid LimeGreen;
+      border-left: 1px solid LimeGreen;
+      border-right: 1px solid LimeGreen;
 }
 
 li a:hover {
-    background-color: white;
-    color: black;
+      background-color: white;
+      color: black;
 }
 
-h1{
-    font-family: sans-serif;
-    color: LimeGreen;
-    font-size: 30px;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 40px;
-    padding-top: 40px;
+h1 {
+      font-family: sans-serif;
+      color: LimeGreen;
+      font-size: 30px;
+      text-align: center;
+      width: 100%;
+      padding-bottom: 40px;
+      padding-top: 40px;
 }
 
-c{
-    z-index: 3;
-    text-align: center;
-    font-family: inherit;
-    position: relative;
-    top: -406px;
-    font-size: 20px;
-    color: limegreen;
-    padding-left: 2000px;
-    margin: auto;  
+c {
+      z-index: 3;
+      text-align: center;
+      font-family: inherit;
+      position: relative;
+      top: -406px;
+      font-size: 20px;
+      color: limegreen;
+      padding-left: 2000px;
+      margin: auto;
 }
 
-h3{
-    padding-left: 00px
-    font-family: inherit;
-    color: LimeGreen;    
+h3 {
+      padding-left: 00px font-family: inherit;
+      color: LimeGreen;
 }
 
-p{
-    width: 14%;
-    font-size: 20px;
-    color: LimeGreen;
-    bottom: -150px;
-    padding-left: 655px;
-    font-family: inherit;
-    text-align: center;
-    padding-top: 10px;
-    position: absolute;
+.image-container {
+      position: relative;
+      margin: auto;
+      display: block;
+      width: 30%;
 }
 
-p2{
-    width: 1%;
-    font-size: 20px;
-    color: LimeGreen;
-    font-family: inherit; 
-    bottom:-150px;
+.sphere-container {
+      position: relative;
 }
 
-.image-container { 
-    top: -640px;
-    position: relative;              
-    margin-top: 100px;               
-    height: 60%;  
-    left: -50px;
-}
-
-.sphere-container{
-    position: relative;
-    top: -575px;
-    left: 275px;
-    
-}
-
-body{
-    background-color: black;
-    
-}
-
-.myContainer{
-    background-color: black;
-}
-
-.column{
-    z-index: 1;
-    position: relative;
-    top: -562px;
-    padding-left: 940px;
-    margin-right: inherit;
-    max-width: 13%;
-    text-align: center;
-}
-    
 body {
-    text-align: center;
+      background-color: black;
+      color: LimeGreen;
+}
+
+.myContainer {
+      background-color: black;
+}
+
+.column-left {
+      float: left;
+      position: relative;
+      padding-left: 20%;
+      text-align: left;
+      width: 25%;
+}
+
+.column-right {
+      float: right;
+      position: relative;
+      padding-right: 20%;
+      text-align: right;
+      width: 25%;
+}
+
+body {
+      text-align: center;
+      font-family: sans-serif;
 }
 
 .wrapper {
-    position: inherit;
-    align-self: stretch;
-    display: inline-block;
-    justify-content: center;
-}
-.wrapper i {
-    padding: 10px;
-    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
-    transition: all ease-in-out 150ms;
-}
-.wrapper a:nth-child(1) {
-    color: #dd4b39;
-}
-.wrapper a:nth-child(2) {
-    color: #4867AA;
-}
-.wrapper a:nth-child(3) {
-    color: #1DA1F2;
-}
-.wrapper i:hover {
-    margin-top: -3px;
-    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+      position: absolute;
+      right: 15px;
+      top: 15px;
 }
 
+.wrapper i {
+      padding: 10px;
+      text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+      transition: all ease-in-out 150ms;
+}
+
+.wrapper a:nth-child(1) {
+      color: #dd4b39;
+}
+
+.wrapper a:nth-child(2) {
+      color: #4867AA;
+}
+
+.wrapper a:nth-child(3) {
+      color: #1DA1F2;
+}
+
+.wrapper i:hover {
+      margin-top: -3px;
+      text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+}
